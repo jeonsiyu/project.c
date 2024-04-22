@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\TOC_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19A8C714-49F7-493B-A2AD-F9C4DFC14AB9}|TOC_Project\\TOC_Project.vcxproj|C:\\Users\\User\\source\\repos\\TOC_Project\\TOC_Project\\Screen_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19A8C714-49F7-493B-A2AD-F9C4DFC14AB9}|TOC_Project\\TOC_Project.vcxproj|solutionrelative:TOC_Project\\Screen_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A8C714-49F7-493B-A2AD-F9C4DFC14AB9}|TOC_Project\\TOC_Project.vcxproj|C:\\Users\\User\\source\\repos\\TOC_Project\\TOC_Project\\Main Page_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{19A8C714-49F7-493B-A2AD-F9C4DFC14AB9}|TOC_Project\\TOC_Project.vcxproj|solutionrelative:TOC_Project\\Main Page_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Screen_1.c",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TOC_Project\\TOC_Project\\Screen_1.c",
+              "RelativeDocumentMoniker": "TOC_Project\\Screen_1.c",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TOC_Project\\TOC_Project\\Screen_1.c*",
+              "RelativeToolTip": "TOC_Project\\Screen_1.c*",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-22T06:02:12.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main Page_1.c",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TOC_Project\\TOC_Project\\Main Page_1.c",
+              "RelativeDocumentMoniker": "TOC_Project\\Main Page_1.c",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TOC_Project\\TOC_Project\\Main Page_1.c",
+              "RelativeToolTip": "TOC_Project\\Main Page_1.c",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-22T05:59:47.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

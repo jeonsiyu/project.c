@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <Windows.h>
+#define UP 0
+#define DOWN 1
 
 void setcolor(int colorNum) { // 텍스트 속성을 변경하는데 사용되는 함수선언
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), colorNum);

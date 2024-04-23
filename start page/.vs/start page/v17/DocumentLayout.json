@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\uC804\uBD80\uACBD\\source\\repos\\start page\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\TOC\\start page\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1A46031-9EB2-460F-81CE-ED9A33FD1F5C}|start page\\start page.vcxproj|C:\\Users\\\uC804\uBD80\uACBD\\source\\repos\\start page\\start page\\start page_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F1A46031-9EB2-460F-81CE-ED9A33FD1F5C}|start page\\start page.vcxproj|C:\\Users\\User\\Desktop\\TOC\\start page\\start page\\start page_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F1A46031-9EB2-460F-81CE-ED9A33FD1F5C}|start page\\start page.vcxproj|solutionrelative:start page\\start page_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "start page_1.c",
-              "DocumentMoniker": "C:\\Users\\\uC804\uBD80\uACBD\\source\\repos\\start page\\start page\\start page_1.c",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\TOC\\start page\\start page\\start page_1.c",
               "RelativeDocumentMoniker": "start page\\start page_1.c",
-              "ToolTip": "C:\\Users\\\uC804\uBD80\uACBD\\source\\repos\\start page\\start page\\start page_1.c",
+              "ToolTip": "C:\\Users\\User\\Desktop\\TOC\\start page\\start page\\start page_1.c",
               "RelativeToolTip": "start page\\start page_1.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAMEAAAABAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwN0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-04-22T12:25:48.686Z",
               "EditorCaption": ""

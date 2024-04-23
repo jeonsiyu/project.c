@@ -1,5 +1,8 @@
 #include<stdio.h>
 #include <Windows.h>
+#define UP 1
+#define DOWN 2
+#define SPADE 3
 
 
 void init(void) {
@@ -13,15 +16,82 @@ void gotoxy(int x, int y) {
 	pos.Y = y;
 	SetConsoleCursorPosition(consolehandle, pos);
 }
-void choice() {
-	gotoxy(20, 17);
-	printf("식단을 도와주시겠습니까?\n");
-	gotoxy(20, 20);
-	printf("예\n");
-	gotoxy(20, 21);
-	printf("아니요\n");
 
+int keycontrol(){
+	char getch();
+	char temp = getch();
+
+	if (temp == 'w' || temp == 'W') {
+		return UP;
 	}
+	else if (temp == 's' || temp == 'S') {
+		return DOWN;
+	}
+	else if (temp == ' ') {
+		return SPADE;
+	}
+}
+
+int choice() {
+
+	int x = 25;
+	int y = 24;
+	gotoxy(x - 2, y); // -2는">"를 출력하기 위해 사용
+	printf("> 좋아~ 도와줄게! (＾▽＾)/(24번줄)\n");
+	gotoxy(x, y + 2);
+	printf("싫어! 안 도와줄래（-_-)(26번줄)\n");
+
+	while (1) { // 무한 반복문 사용
+		int n = keycontrol();
+		switch (n) {
+		case UP: {	// UP(W)이 입력 된 경우
+			if (y < 25) {
+				gotoxy(x - 2, y);
+				printf(" ");
+				gotoxy(x - 2, y + 2);
+				printf(">");
+
+				y += 2;
+			}
+			else {
+				gotoxy(x - 2, y);
+				printf(" ");
+				gotoxy(x - 2, y - 2);
+				printf(">");
+
+				y -= 2;
+			}
+			break;
+		}
+		case DOWN: {	// DOWN(s)이 입력 된 경우
+			if (y > 24) {
+				gotoxy(x - 2, y);
+				printf(" ");
+				gotoxy(x - 2, y - 2);
+				printf(">");
+
+				y -= 2;
+			}
+
+			else {
+				gotoxy(x - 2, y);
+				printf(" ");
+				gotoxy(x - 2, y + 2);
+				printf(">");
+
+				y += 2;
+
+			}
+			break;
+		}
+		case SPADE: {	// 스페이드가 입력 된 경우
+			return y - 17;
+			break;
+			}
+		}
+	}
+}
+	
 
 int main() {
 	char name[100];
@@ -58,9 +128,11 @@ int main() {
 
 	choice();
 
+	keycontrol();
+
 
 	
-
-
+	//int keycode = keycontrol();
+	//printf("반환값 : %d", keycode);
 
 }

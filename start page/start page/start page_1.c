@@ -185,11 +185,43 @@ void prints() {
 	gotoxy(91, 18);	printf(" ¡á¡á¡á¡á \n");
 }
 
+void printsch1() {
+
+	gotoxy(120, 13);	printf("          ¡á¡á¡á¡á         \n");
+	gotoxy(120, 13);	printf("      ¡á¡á¡á¡á¡á¡á¡á¡á     \n");
+	gotoxy(91, 13);	printf("    ¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á   \n");
+	gotoxy(91, 13);	printf("   ¡á¡á¡á¡á¡á  ¡á¡á¡á¡á¡á  \n");
+	gotoxy(91, 13);	printf(" ¡á¡á¡á¡á¡á      ¡á¡á¡á¡á¡á\n");
+	gotoxy(91, 13);	printf(" ¡á¡á                  ¡á¡á\n");
+	gotoxy(91, 13);	printf(" ¡á                      ¡á\n");
+	gotoxy(91, 13);	printf("  ¡á    ¡á        ¡á    ¡á \n");
+	gotoxy(91, 13);	printf("   ¡á        ¡Ô        ¡á  \n");
+	gotoxy(91, 13);	printf("    ¡á               ¡á    \n");
+	gotoxy(91, 13);	printf("     ¡á¡á         ¡á¡á     \n");
+	gotoxy(91, 13);	printf("   ¡á                ¡á    \n");
+	gotoxy(91, 13);	printf(" ¡á         ¢¾         ¡á  \n");
+	gotoxy(91, 13);	printf("  ¡á                  ¡á   \n");
+	gotoxy(91, 13);	printf("  ¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á   \n");
+	gotoxy(91, 13);	printf("  ¡á                  ¡á   \n");
+}
+
+
 
 int main() {
 
 	printT(); printa1();  printk(); printe();
 	printO(); print_f1(); print_f2();
 	printC(); printa2();  printl(); printo(); printr(); printi(); printe2(); prints();
+
+	printf("                     ¡á¡á¡á¡á            \n");
+	printf("                 ¡á¡á¡á¡á¡á¡á¡á¡á        \n");
+	printf("               ¡á¡á¡á¡á¡á¡á¡á¡á¡á¡á    \n");
+	printf("              ¡á¡á¡á¡á¡á  ¡á¡á¡á¡á¡á   \n");
+	printf("             ¡á¡á¡á¡á¡á    ¡á¡á¡á¡á¡á  \n");
+	printf("             ¡á¡á                ¡á¡á  \n");
+	printf("             ¡á      ¡Ü    ¡Ü      ¡á  \n");
+	printf("              ¡á       |£þ|        ¡á   \n");
+	printf("               ¡á                ¡á     \n");
+	printf("                  ¡á¡á¡á¡á¡á¡á¡á        \n");
 	
 }

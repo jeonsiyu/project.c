@@ -33,5 +33,8 @@
     <ClCompile Include="화면1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="메인_화면1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

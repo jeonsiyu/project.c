@@ -15,26 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="달력.c">
+    <ClCompile Include="화면 작업.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="메인화면1.c">
+    <ClCompile Include="화면 합치기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="메인화면2.c">
+    <ClCompile Include="캐릭터.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="메인화면3.c">
+    <ClCompile Include="cursor.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="메인화면 자료들.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="화면1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="메인_화면1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cursor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -161,7 +161,7 @@ void prints_ch6() {
 
 //방향키 
 int keycontrol(){
-	char getch();
+	// char getch();
 	char temp = getch();
 
 	if (temp == 'w' || temp == 'W') {
@@ -244,19 +244,42 @@ int choice_code() {
 		printf("야호~ 고마워! 그럼 바로 시작하자ㅎ_ㅎ\n");
 		Sleep(4000);
 		system("cls");
+		prints_ch5();
+		gotoxy(22, 25);
+		printf("오늘 먹을 식단을 적어줄래?\n");
+		Sleep(4000);
+		system("cls");
 
 	}
 	else  {
 		system("cls");
 		prints_ch4();
 		gotoxy(22, 25);
-		printf("알았어.. 그럼 다음에 다시 와줘ㅠ.ㅠ\n");
+		printf("알았어.. 그럼 다음에 다시 와줘..ㅜ\n");
+		system("cls");
 		return 0;
 
 	}
 }
 
 
+// 칼로리 합계로 인한 성공/실패 화면 함수
+// int last_screen() {
+//	if (Totalkcal < 1500) {
+//	prints_ch2();
+//	gotoxy(22, 25);
+//	printf("오늘의 식단관리 성공!!\n");
+//	gotoxy(22, 26);
+//	printf("너무 좋은데? 내일도 와줘야해ㅎㅎ\n");
+//}
+// else {
+//  prints_ch4();
+//  gotoxy(22, 25);
+//	printf("오늘의 식단관리 실패ㅜ.ㅜ\n");
+//	gotoxy(22, 26);
+//	printf("괜찮아ㅜ.ㅜ 그럴 수 있지.. 내일은 더 잘 해보자!\n");
+//	}
+//}
 
 
 int main() {
